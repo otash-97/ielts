@@ -1,0 +1,150 @@
+
+
+*:focus{
+  outline: red dotted 4px;
+  outline-offset: 3px;
+}
+
+
+/*------------------nav-container------------------*/
+
+nav{
+  /* background-color: rgb(248, 240, 240); */
+
+}
+.nav-container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.nav-logo{
+
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item{
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+}
+.nav-item:last-child{
+  margin-right: 0;
+}
+
+
+
+/*---------x---------nav-container---------x---------*/
+
+
+
+/* ---------------------------------General----------------------------- */
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+span{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: 'Poppins' , serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #124112;
+}
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2{
+  text-transform: capitalize;
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  text-align: center;
+}
+img{
+  display: block;
+}
+
+.btn{
+  background-color: #FFF;
+  padding: 10px 32px;
+  border: 2px solid #5C8692;
+  /* border-radius: 12px; */
+}
+.btn-orange{
+  transition: background-color 0.4s ease;
+  transition: border 0.4s ease;
+
+}
+
+
+
+
+
+
+/* ---------------x------------------General---------------x-------------- */
+
+
+
+/*-------------------------------------section----info--------------------------------------*/
+.info{
+  /* margin-left: 360px; */
+
+}
+
+.btn-orange:hover{
+  color: #fff;
+  background-color: #5C8692;
+  border: 2px solid #fff;
+}
+.hover{
+  display: none;
+  transition: color 0.4s ease;
+  margin-left: 30px;
+
+}
+.info-link:hover .hover{
+  display: inline-block;
+  color: blueviolet;
+
+}
+.info-link{
+  text-transform: capitalize;
+}
+
+.color{
+  color: #5C8692;
+  margin: 0;
+  margin-left: 16px;
+  width: 30px;
+  width: 100%;
+  padding: 0;
+}
+
+
+/*----------------x---------------------section------------info-----------x--------------------*/
